@@ -1,0 +1,1 @@
+cmd_generated_headers//include/linux/hsi/.install := /bin/bash scripts/headers_install.sh ./generated_headers//include/linux/hsi ./include/uapi/linux/hsi cs-protocol.h hsi_char.h; /bin/bash scripts/headers_install.sh ./generated_headers//include/linux/hsi ./include/generated/uapi/linux/hsi ; touch generated_headers//include/linux/hsi/.install
